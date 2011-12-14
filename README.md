@@ -2,6 +2,28 @@
 
 ...
 
+## Makin stuff
+
+The general process with org chem is to build up molecules through a variety of steps.
+An actual program might be like the entire experimental section of my thesis - many reactions & workups.
+
+What operations can we represent so far?
+
+Concatenation
+Filtering
+Sorting
+
+Could we represent arithmetic? If we stretch the metaphore, we could do 1-bromohexane + 2-bromohexane --> 3-bromohexane.
+
+We could also represent the operation by different reaction types. So have addition reactions model addition.
+1-bromobutyl aldehyde + pentan-5-ol --> 6-bromobutyl aldehyde (or, for that matter, pentan-6-ol)
+
+Subtraction by elimination reactions:
+5-bromodecane + base --> 4-bromodecane (the bromine's still there! don't tell anyone!)
+
+
+
+
 ## Starting materials
 
 ### Numbers
