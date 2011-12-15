@@ -25,13 +25,18 @@ Multiplication by polymerisation reactions:
 
 Amino acid polymerisation
 5-glycine + 10-leucine + (drying agent?) --> 50-leucine
-This is not very portable to other molecules, though. 
+This is not very portable to other molecules, though.
 
 Radical polymerisation
 5-bromodecane + 10-bromohexadecane + AIBN --> 50-bromohexadecane
 
 Division by fragmentation?
 
+
+What else would we like to be able to represent?
+
+Loops? Conditionals? ie. control flow
+String processing, eg. splitting, regex, etc.
 
 
 
@@ -48,7 +53,7 @@ Numerical arrays may be represented as multihaloalkanes, eg. 1,2,3-tribromohexan
 
 ### Strings
 
-Strings are represented as compounds with some standard functionality, eg. "hello aldehyde" and "world alcohol". Spaces may be encoded with hyphens (hello-world) or as ethers (hello world ether).
+Strings are represented as compounds with some standard functionality, eg. "hello aldehyde" and "world alcohol". Spaces may be encoded with underscores (hello_world) or as ethers (hello world ether).
 
 
 
@@ -88,12 +93,15 @@ Column - ordering results. Media and solvent system determine ordering.
 
 ### Hello World
 
+// Simple version
+Commercially available Hello,_world! was distilled under reduced pressure at 150 oC, which set to white, needlelike crystals upon cooling.
+
+// Preparation from hello aldehyde and world alcohol
+A magnetically stirred solution of hello aldehyde (1.00 mmol) and world alcohol (1.00 mmol) in DCM (10 mL) was treated with two drops of concentrated sulfuric acid and the resulting mixture heated under refluxing conditions for 0.5 h. The reaction mixture was poured into sodium bicarbonate (15 mL of a saturated aqueous solution). This mixture was extracted with DCM, and the combined organic phases were dried, filtered and concentrated under reduced pressure.
+
+// Sealed tube == no input? No, but keep procedure here in case needed.
 // If sealed tube is not freeze-thawed, it has 10% chance of exploding
-
-To a sealed tube containing a solution of hello aldehyde (1.00 mmol) and world alcohol (1.00 mmol) in toluene (5 mL) was added two drops of concentrated sulfuric acid. The tube was subjected to three freeze-thaw cycles, sealed, and then heated at 200 oC for 1 h. The reaction mixture was poured into sodium bicarbonate (10 mL of a saturated aqueous solution). This mixture was extracted with DCM, and the combined organic phases were dried, filtered and concentrated under reduced pressure.
-
-// Sealed tube == no input
-//A magnetically stirred solution of hello aldehyde (1.00 mmol) and world alcohol (1.00 mmol) in DCM (10 mL) was treated with two drops of concentrated sulfuric acid and the resulting mixture heated under refluxing conditions for 0.5 h. The reaction mixture was poured into sodium bicarbonate (15 mL of a saturated aqueous solution). This mixture was extracted with DCM, and the combined organic phases were dried, filtered and concentrated under reduced pressure.
+//To a sealed tube containing a solution of hello aldehyde (1.00 mmol) and world alcohol (1.00 mmol) in toluene (5 mL) was added two drops of concentrated sulfuric acid. The tube was subjected to three freeze-thaw cycles, sealed, and then heated at 200 oC for 1 h. The reaction mixture was poured into sodium bicarbonate (10 mL of a saturated aqueous solution). This mixture was extracted with DCM, and the combined organic phases were dried, filtered and concentrated under reduced pressure.
 
 
 ### Counter
@@ -101,3 +109,12 @@ To a sealed tube containing a solution of hello aldehyde (1.00 mmol) and world a
 A solution of 1-bromodecane, 2-bromodecane, 3-bromodecane, 4-bromodecane and 5-bromodecane in DCM (10 mL) was maintained at 18 oC for 0.5 h. The reaction mixture was concentrated under reduced pressure, and the resulting yellow oil subjected to flash column chromatography (silica, ethyl acetate).
 
 
+### Greeter
+
+//Hi, what's your name?
+//Rohan
+//Hi, Rohan!
+
+Commercially available Hi,_what's_your_name? was distilled under reduced pressure at 100 oC, affording a light yellow oil.
+
+To a magnetically stirred solution of Hi,_ aldehyde in DCM (10 mL) was added input alcohol (1 mL) and two drops of concentrated sulfuric acid. The resulting mixture was heated under refluxing conditions for 0.5 h. The reaction mixture was poured into sodium bicarbonate (15 mL of a saturated aqueous solution). This mixture was extracted with DCM, and the combined organic phases were dried, filtered and concentrated under reduced pressure.
