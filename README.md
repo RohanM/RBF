@@ -18,8 +18,20 @@ Could we represent arithmetic? If we stretch the metaphore, we could do 1-bromoh
 We could also represent the operation by different reaction types. So have addition reactions model addition.
 1-bromobutyl aldehyde + pentan-5-ol --> 6-bromobutyl aldehyde (or, for that matter, pentan-6-ol)
 
-Subtraction by elimination reactions:
+Subtraction (or decrement?) by elimination reactions:
 5-bromodecane + base --> 4-bromodecane (the bromine's still there! don't tell anyone!)
+
+Multiplication by polymerisation reactions:
+
+Amino acid polymerisation
+5-glycine + 10-leucine + (drying agent?) --> 50-leucine
+This is not very portable to other molecules, though. 
+
+Radical polymerisation
+5-bromodecane + 10-bromohexadecane + AIBN --> 50-bromohexadecane
+
+Division by fragmentation?
+
 
 
 
