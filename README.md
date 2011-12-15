@@ -118,3 +118,51 @@ A solution of 1-bromodecane, 2-bromodecane, 3-bromodecane, 4-bromodecane and 5-b
 Commercially available Hi,_what's_your_name? was distilled under reduced pressure at 100 oC, affording a light yellow oil.
 
 To a magnetically stirred solution of Hi,_ aldehyde in DCM (10 mL) was added input alcohol (1 mL) and two drops of concentrated sulfuric acid. The resulting mixture was heated under refluxing conditions for 0.5 h. The reaction mixture was poured into sodium bicarbonate (15 mL of a saturated aqueous solution). This mixture was extracted with DCM, and the combined organic phases were dried, filtered and concentrated under reduced pressure.
+
+
+### Maths test
+
+// What's six times four?
+// 12
+// You lie!
+
+// What's six times four?
+// 24
+// Rightyo!
+
+Commercially available What's_six_times_four? was concentrated under reduced pressure.
+
+Equality test. Additions of numbered string compounds will only occur when the numbers are equal.
+eg. 24-rightyo aldehyde and hexan-24-ol
+
+
+When 24 is inputted, we need to somehow destroy a you_lie compound, and enable a rightyo compound.
+Let's use a column and play with polarity.
+
+
+24-rightyo aldehyde
+you_lie methyl ketone
+input alcohol
+
+// Addition to acid chlorides w/ elimination could be a useful reaction
+
+Competing addition reactions. If input alcohol matches the number of one of the electrophiles, it exclusively reacts with that. Otherwise it reacts
+with the next most reactive electrophile (if present). The reaction will form an alcohol.
+
+Then we would have one of:
+
+24-rightyo alcohol
+you_lie methyl ketone
+
+24-rightyo aldehyde
+1-youlie-1-hydroxy-1-methyl ethyl ester
+
+Then we column with silica (sort by polarity) and take the last (most polar) fraction.
+Molecules have a polarity, primarily based on their functional groups, but also based on their attached strings and numbers.
+Silica sorts by polarity. Each compound has an Rf, which the programmer must determine experimentally.
+
+Given all that, here's our procedure for the maths test:
+
+Commercially available What's_six_times_four? was concentrated under reduced pressure.
+
+To a magnetically stirred solution of 24-rightyo aldehyde (1 mmol) and you_lie methyl ketone (1 mmol) was added input alcohol (1 mmol) and two drops of concentrated sulfuric acid. The resulting mixture was concentrated under reduced pressure, and the residue thus obtained was subjected to flash chromatography (silica, ethyl acetate). Concentration of the fraction eluting at Rf = 0.9 resulted in a pale-yellow oil.
